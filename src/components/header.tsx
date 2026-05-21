@@ -22,14 +22,7 @@ export function Header() {
     <header className="bg-card py-4 shadow-md relative">
       <div className="container mx-auto flex items-center justify-center gap-3">
         <Link href="/">
-          <Image
-            src="https://firebasestorage.googleapis.com/v0/b/ralfeedback.firebasestorage.app/o/img%2FROJ_Logo.png?alt=media&token=35b9c7b1-294b-4861-a537-8271161d9a5b"
-            alt="ROJFeedback Logo"
-            width={408}
-            height={408}
-            className="h-20 w-auto cursor-pointer"
-            priority
-          />
+          <span className="font-headline text-4xl font-bold text-primary cursor-pointer">ROJReviews</span>
         </Link>
       </div>
       {user && (

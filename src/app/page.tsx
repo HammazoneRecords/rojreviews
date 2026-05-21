@@ -14,8 +14,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowUp, ArrowLeft } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { addFeedback, getFeedbackForRestaurantPaginated, incrementFawudCount, updateFeedback, updateFeedbackSentimentScore } from '@/lib/firebase';
+import type { DocumentSnapshot } from '@/lib/types';
 import Image from 'next/image';
-import { DocumentSnapshot } from 'firebase/firestore';
 
 const FAWUD_COUNTS_KEY = 'ralfeedback-fawud-counts';
 

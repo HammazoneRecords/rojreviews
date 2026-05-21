@@ -29,13 +29,7 @@ export default function RootLayout({
           </div>
         </AuthProvider>
         <footer className="text-center text-sm text-muted-foreground py-4 flex flex-col items-center justify-center gap-2">
-            <Image
-                src="https://firebasestorage.googleapis.com/v0/b/ralfeedback.firebasestorage.app/o/img%2FROJ_Logo.png?alt=media&token=35b9c7b1-294b-4861-a537-8271161d9a5b"
-                alt="ROJ Logo"
-                width={102}
-                height={102}
-                className="h-6 w-auto"
-            />
+            <span className="font-headline text-base font-semibold text-primary">ROJReviews</span>
             <p>© Restaurants of Jamaica (ROJ) Ltd. 2025</p>
         </footer>
         <Toaster />
