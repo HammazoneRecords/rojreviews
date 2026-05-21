@@ -6,7 +6,7 @@
 **Fonts:** Alegreya (body serif) + Belleza (headline sans)
 **Source zip:** `Websites Code 9/rojreviewsbasic.zip` (2025-08-06, Firebase Studio export — newer than `rojfeedback.zip` 2025-07-28 which is superseded)
 
-**Live domain:** TBD — proposed `roj.mindwaveja.com` or `rojfeedback.com` (decision pending)
+**Live domain:** TBD — proposed `roj.mindwaveja.com` or `rojreviews.com` (decision pending)
 **VPS container:** Not deployed yet — proposed `mw-roj-reviews`
 **VPS port:** 3011 (pre-allocated; ral-reviews has 3010)
 **Repo:** Not yet its own git repo. Per CLAUDE.md INS-018, becomes `HammazoneRecords/roj-reviews` before first deploy.

@@ -6,7 +6,7 @@ import { AuthProvider } from '@/context/auth-context';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'ROJFeedback',
+  title: 'ROJReviews',
   description: 'AI-Powered Restaurant Feedback Analysis for Restaurants of Jamaica',
 };
 
